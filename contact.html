@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Glamine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/styles.less" rel ="stylesheet">
+
+  </head>
+  <body>
+    <script id="topNavigation" type="x-tmpl-mustache">
+      {{#item}}
+      <li class="nav-item">
+          <a class="nav-link" href="{{link}}">{{name}}</a>
+      </li>
+      {{/item}}
+  </script>
+
+    <div class="container-fluid">
+    
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">Glamine</a>
+        
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigations-05" aria-controls="navigations-05" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navigations-05">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="hair.html">Hair</a></li>
+            <li class="nav-item"><a class="nav-link" href="makeup.html">Makeup</a></li>
+            <li class="nav-item"><a class="nav-link" href="accessories.html">Accessories</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">Contact<span class="sr-only">(current)</span></a></li>
+          </ul>
+          <form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search">
+          </form>
+        </div>
+      </nav>
+    
+      <section class="py-5">
+        <div class="container text-center">
+          <h1 class="display-4 my-3">Contact Us</h1>
+        </div>
+      </section>
+    
+      <section class="py-5">
+        <h2 class="mb-5 text-center">Contact the Glamine team</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <form>
+                <div class="d-flex flex-column flex-md-row">
+                  <label class="sr-only" for="input1-contacts-05">Name</label>
+                  <input class="form-control mb-3 mr-5" id="input1-contacts-05" type="text" placeholder="Name">
+                  <label class="sr-only" for="input2-contacts-05">Email</label>
+                  <input class="form-control mb-3" id="input2-contacts-05" type="email" placeholder="Email">
+                </div>
+                <label class="sr-only" for="textarea-contacts-05">Write something...</label>
+                <textarea class="form-control mb-3" id="textarea-contacts-05" rows="4" placeholder="Write something..."></textarea>
+                <button class="btn btn-primary px-5 d-block mx-auto" type="submit">Submit</button>
+              </form>
+            </div>
+            <div class="col-12 text-center mt-4">
+              <p>Or just email us on</p>
+              <a href="#">info@glamine.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer class="py-4">
+        <div class="container text-center text-lg-left">
+          <div class="row d-flex justify-content-between flex-column flex-lg-row align-items-center align-items-lg-start">
+            <div class="d-flex flex-column col-10 col-lg-5 pl-0">
+              <h5><a href="#">Glamine</a></h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quam quisquam suscipit placeat sit atque, optio deleniti eveniet explicabo ipsa, 
+                natus eligendi fugit officia rerum velit maxime ex reprehenderit vitae nostrum.</p>
+            </div>
+            <div>
+              <h6>Company</h6>
+              <ul class="list-inline ml-0">
+                <li class="py-1"><a href="#">Link</a></li>
+                <li class="py-1"><a href="#">Link</a></li>
+                <li class="py-1"><a href="#">Link</a></li>
+                <li class="py-1"><a href="#">Link</a></li>
+              </ul>
+            </div>
+            <div>
+              <h6>Support</h6>
+              <ul class="list-inline ml-">
+                <li class="py-1"><a href="#">Link</a></li>
+                <li class="py-1"><a href="#">Link</a></li>
+                <li class="py-1"><a href="#">Link</a></li>
+                <li class="py-1"><a href="#">Link</a></li>
+              </ul>
+            </div>
+            <div>
+              <h6>Join Us</h6>
+              <form class="form-footer">
+                 <input type="text"  placeholder="search here...." name="search">
+                 <input type="button" value="Go" >
+              </form>
+           </div>
+            <div class="w-100 border-top my-3"></div>
+          </div>
+          <div class="flex-column flex-sm-row align-items-center justify-content-sm-between">
+            <p class="mb-0 small text-muted">&copy; 2021 Glamine. All right reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/style.js"></script>
+  </body>
+</html>
